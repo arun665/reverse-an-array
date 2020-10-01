@@ -156,10 +156,11 @@ public class Main
                 
             }
             if(n2==2){
-                System.out.println("Please enter the roll number of the student :");
+                System.out.println("Please enter the roll number ");
                 int n3=sc.nextInt()-1;
                 int n1=0;
-                System.out.println("Enter the marks of student in different subjects");
+                System.out.println("Enter the marks of student in different subjects and grades also");
+              
                 System.out.println("Physics:");
                  n1=sc.nextInt();
                 s.get(n3).setsub1(n1);
